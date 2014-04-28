@@ -1,0 +1,77 @@
+/*all*/
+
+body{
+	background: #98262d;
+}
+
+.coverPhoto{
+	padding-top: 7%;
+	
+}
+
+
+.content{
+	color: #ffffff;
+}
+
+h1{
+	margin-top: -5.5%; 
+	font-size: 5em;
+	font-family:'Raleway', 'sans-serif';
+}
+
+
+
+/*about*/
+.logo{
+	position: absolute;
+	margin-top: -15%; 
+	margin-left: 45%;
+	width: 10%;
+}
+
+
+/*service*/
+p{
+	text-align: justify;
+}
+
+h3{
+	padding-top: 2%;
+}
+
+
+
+/*team*/
+
+.team_photo{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+.name{
+	text-align: center;
+}
+
+.introduce{
+	width: 80%;
+	margin-left: 10%
+}
+
+/*partner*/
+.partner_photo{
+	padding-top: 15%;
+
+}
+
+/*contact*/
+.map{
+	padding-top: 7%;
+}
+
+.map_title{
+	margin-top: 5%;
+}
