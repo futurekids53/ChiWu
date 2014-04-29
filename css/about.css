@@ -20,6 +20,13 @@ h1{
 	font-family:'Raleway', 'sans-serif';
 }
 
+footer p{
+	text-align: center;
+	font-size: 0.5em;
+	color: #e28c92;
+	padding: 4% 0% 1% 0%;
+}
+
 
 
 /*about*/
@@ -40,6 +47,19 @@ h3{
 	padding-top: 2%;
 }
 
+.stage_title{
+	padding: 2%;
+}
+
+.graph{
+	background: #383838;
+	padding-bottom: 2%;
+
+}
+
+#last{
+	padding-bottom: 3%;
+}
 
 
 /*team*/
