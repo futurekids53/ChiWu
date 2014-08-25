@@ -24,9 +24,49 @@
 }
 
 
+
+/*BREADCRUMB*/
+
+.bread{
+	background-color:#fff;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.glyphicon-map-marker{
+	color: #ef3f37;
+}
+
+
+
 /*BOTTOM NAV*/
 
-/*Long Area*/
+/*BLANK AREA*/
+
+.blank{
+	height: 50px;
+}
+
+/*Link Area*/
+
+.footnav{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.footnav>li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.footnav>li a{
+	color: #777;
+	text-decoration: underline;
+}
+
+/*Date*/
+
 .bigFoot{
 	position: fixed;
 	bottom: 0px;
@@ -34,35 +74,8 @@
 	background-color:#5acdc1;/*Theme Blue*/
 }
 
-/*Link Area*/
-.copyright{
+.date{
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.footnav ul{
-	margin-bottom: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	position: absolute;
-	right: 0px;
-}
-
-.footnav li{
-	text-align: right;
-	display: inline;
-	padding-left: 5px;
-	padding-right: 5px;
-
-}
-
-.footnav li a{
-	color: #333;/*White*/
-}
-
-
-/*BLANK AREA*/
-
-.blank{
-	height: 50px;
+	text-align: center;
 }
