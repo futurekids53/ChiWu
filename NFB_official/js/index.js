@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
-		$("#ytplayer").setVolume(0);
+	$("#ytplayer").setVolume(0);
  
 });
+
