@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-	$("#ytplayer").setVolume(0);
+	var player =  iframe.getElementById('ytplayer');
+	player.mute();
  
 });
 
