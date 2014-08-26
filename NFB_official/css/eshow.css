@@ -27,6 +27,14 @@
 	width: 100%;
 }
 
+.eshow_clip{
+	padding-bottom: 20px;
+}
+
+.fb-like{
+	padding-top: 20px;
+}
+
 /*CONTENT_CaptionBox*/
 .subBox_captionbox{
 	position: absolute;
