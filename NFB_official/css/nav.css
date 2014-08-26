@@ -52,7 +52,9 @@
 .footnav{
 	text-align: center;
 	padding-top: 15px;
+	padding-left: 0px;
 }
+
 
 .footnav>li{
 	display: inline;

@@ -23,7 +23,16 @@
 
   <!-- CSS_MainTheme -->
   <link href="../css/theme.css"               rel="stylesheet" type="text/css"/>
-  <link href="../css/story.css"               rel="stylesheet" type="text/css"/>
+  <link href="../css/scene.css"               rel="stylesheet" type="text/css"/>
+
+  <!-- Important Owl stylesheet -->
+  <link href="../owl-carousel/owl.carousel.css"    rel="stylesheet">
+  <link href="../owl-carousel/owl.transitions.css" rel="stylesheet"> 
+  <link href="../owl-carousel/owl.theme.css"     rel="stylesheet">
+  
+  <!-- Default Theme -->
+  
+
   
 </head>
 
@@ -94,7 +103,7 @@
         <span class="glyphicon glyphicon-map-marker"></span>
         <li>                <a href="../index.html">首頁</a>    </li>
         <li>                            電視劇      </li>
-        <li class="active"> <a href="#">劇情大綱</a></li>        
+        <li class="active"> <a href="#">劇中場景</a></li>        
       </ol>
     </div>
   </div>
@@ -103,81 +112,17 @@
 
   <!-- CONTENT -->
   <div class="container-fluid">
-    <div class="container">
-      <div class="col-xs-3 col-sm-2 col-md-2 sidebar">
-        <ul class="nav nav-sidebar story_nav">
-          <li class="active"><a href="#">主要劇情   </a></li><hr>
-          <li><a href="#">第一集 背叛    </a></li><hr>
-          <li><a href="#">第二集 偽裝    </a></li><hr>
-          <li><a href="#">第三集 勇氣    </a></li><hr>
-          <li><a href="#">第四集 抽離    </a></li><hr>
-          <li><a href="#">第五集 承擔    </a></li><hr>
-          <li><a href="#">第六集 唯一    </a></li><hr>
-          <li><a href="#">第七集 備份    </a></li><hr>
-          <li><a href="#">第八集 責任    </a></li><hr>
-          <li><a href="#">第九集 復仇    </a></li><hr>
-          <li><a href="#">第十集 接受    </a></li><hr>
-          <li><a href="#">第十一集 完美  </a></li><hr>
-          <li><a href="#">第十二集 瞬間  </a></li><hr>
-          <li><a href="#">第十三集 替代  </a></li><hr>
-          <li><a href="#">第十四集 命運  </a></li><hr>
-          <li><a href="#">第十五集 激情  </a></li><hr>
-          <li><a href="#">第十六集 錯過  </a></li><hr>
-          <li><a href="#">第十七集 初衷  </a></li><hr>
-          <li><a href="#">第十八集 坦誠  </a></li><hr>
-          <li><a href="#">第十九集 條件  </a></li><hr>
-          <li><a href="#">第二十集 背叛  </a></li>
-        </ul>
-      </div>
-
-      <div class="col-xs-9 col-sm-10 col-md-10">
-        <div class="row">
-          <h3 class="story_title">主要劇情</h3>
-        </div>
-
-        <div class="row">
-          <img class="story_img" src="../img/story/000.jpg">
-        </div>
-
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-7 story_content">
-            
-            <h3>這一場「以婚姻為前提」的相遇，<br>就如同一面面鏡子反射出愛情的種種樣貌...</h3>
-             
-            <p>
-            她，李海寧，大國民出版社總編輯，與男友方成皓交往九年，但倆人的關係已漸漸
-            進入平淡僵化的循環中。三年前她被挖角跳槽，也把方成皓一起從大型出版集團帶過來。但這家出版社除了成皓的書之外一律不賺錢，但漸漸地連成皓的書都面臨了銷售瓶頸。
-            </p><br>
-              
-            <p>
-            正當她為成皓策劃著關於網路徵婚的新書之時，卻意外發現成皓一連串驚人的誹聞風暴，在憤怒之餘，她決定在這循環的困境裡跳脫，徵婚新書的主角由自己接手，於是不想結婚的她，卻開始徵婚！
-            </p><br>
-
-            <p>
-            她寫下：「女，三十二歲。誠徵正直善良，樂於溝通之男士。願先友後婚。」
-            </p><br>
-
-            <p>
-            這一場「以婚姻為前提」的相遇，就如同一面面鏡子反射出愛情的種種樣貌，看見人性百態也發現愛情裡迷離的自己…在形形色色的一百位徵婚者之中，海寧也學到了愛情的各種難題與課題：責任、承諾、錯過、背叛、激情……，最後，她能在這場徵婚行動中，遇見真愛嗎？
-            </p><br>
-
-          </div>
-
-          <div class="col-xs-12 col-sm-12 col-md-5 trailer_box">
-         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/9h9xKEcZla0?autoplay=1&controls=&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3"
-              frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-        </div>
-
-
-      </div>
     
+    <div class="col-xs-12 col-sm-12 col-md-12"  id="map_wrapper">
+        <div id="map_canvas" class="col-xs-12 col-sm-12 col-md-12 mapping"></div>
+      </div>
 
+    <div class="container">
+      
     </div>
 
-    <!-- COPYRIGHT -->
+
+      <!-- COPYRIGHT -->
       <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <ul class="footnav">
@@ -190,12 +135,8 @@
       
     <div class="blank"></div>
 
-    </div>
+  </div>
 
-
-      
-
-  
 
   <!--FOOTER-->
   <div class="container-fluid bigFoot">
@@ -217,7 +158,7 @@
   <script src="../js/nav.js"></script>
 
   <!-- JAVASCRIPT_Main -->
-  <script src="../js/maincha.js"></script>
+  <script src="../js/scene.js"></script>
    
   <!-- Include js plugin -->
   <script src="../owl-carousel/owl.carousel.js"></script>
