@@ -119,7 +119,7 @@ function initialize() {
         '<h3>英式茶館</h3>' +
         '<h4>卡提薩克 Cutty sark 英式茶館</h4>'+
         '<img class="map_img" src="../img/index/index_box_03.jpg">'+
-        '<p>田欣指揮工人搬鋼琴</p>' + 
+        '<p>她，李海寧，大國民出版社總編輯，與男友方成皓交往九年，但倆人</p>' + 
         '<p>台北市北投區行義路180巷5號</p>' +
         '</div>'],
 
