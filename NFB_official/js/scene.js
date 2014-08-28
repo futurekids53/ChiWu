@@ -108,30 +108,30 @@ function initialize() {
     // Multiple Markers
     var markers = [
         ['英式茶館', 25.132257, 121.529087],
-        ['Palace of Westminster, London',25.054063, 121.520353],
-        ['test', 25.046482, 121.517521]
+        ['Palace of Westminster, London',25.125784, 121.517025],
+        ['test', 25.128707, 121.525665]
     ];
                         
     // Info Window Content
     var infoWindowContent = [
     
         ['<div class="info_content">' +
-        '<h3>英式茶館</h3>' +
-        '<h4>卡提薩克 Cutty sark 英式茶館</h4>'+
-        '<img class="map_img" src="../img/index/index_box_03.jpg">'+
-        '<p>她，李海寧，大國民出版社總編輯，與男友方成皓交往九年，但倆人</p>' + 
-        '<p>台北市北投區行義路180巷5號</p>' +
+        '<h4 >卡提薩克英式茶館 <span>台北市北投區行義路180巷5號</span></h4>'+
+        '<img class="map_img" src="../img/scene/001.jpg">'+
+        '<p>第一集海寧與田欣悠閒的喝著下午茶，以及田天彈奏著悠揚琴聲的相親場景，都是來自於這間茶館。拍攝劇組找到這間隱身在北投巷弄中的玻璃屋，充滿英式古典氛圍的莊園造景，搭配屋內擺設各式英國瓷器，營造出置身英國小鎮的氛圍。</p>' + 
         '</div>'],
 
         ['<div class="info_content">' +
-        '<h3>Palace of Westminster</h3>' +
-        '<p>The Palace of Westminster is the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom. Commonly known as the Houses of Parliament after its tenants.</p>' +
+        '<h4 >卡提薩克英式茶館 <span>台北市北投區行義路180巷5號</span></h4>'+
+        '<img class="map_img" src="../img/scene/001.jpg">'+
+        '<p>第一集海寧與田欣悠閒的喝著下午茶，以及田天彈奏著悠揚琴聲的相親場景，都是來自於這間茶館。拍攝劇組找到這間隱身在北投巷弄中的玻璃屋，充滿英式古典氛圍的莊園造景，搭配屋內擺設各式英國瓷器，營造出置身英國小鎮的氛圍。</p>' + 
         '</div>'],
-
+        
         ['<div class="info_content">' +
-        '<h3>test</h3>' +
-        '<p>The Palace of Westminster is the meeting place of the House of Commons and the House of Lords, the two houses of the Parliament of the United Kingdom. Commonly known as the Houses of Parliament after its tenants.</p>' +
-        '</div>']
+        '<h4 >卡提薩克英式茶館 <span>台北市北投區行義路180巷5號</span></h4>'+
+        '<img class="map_img" src="../img/scene/001.jpg">'+
+        '<p>第一集海寧與田欣悠閒的喝著下午茶，以及田天彈奏著悠揚琴聲的相親場景，都是來自於這間茶館。拍攝劇組找到這間隱身在北投巷弄中的玻璃屋，充滿英式古典氛圍的莊園造景，搭配屋內擺設各式英國瓷器，營造出置身英國小鎮的氛圍。</p>' + 
+        '</div>'],
     ];
         
     // Display multiple markers on a map

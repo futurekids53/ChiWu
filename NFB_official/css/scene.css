@@ -7,6 +7,20 @@
     height: 100%;
 }
 
+.info_content{
+	width: 400px;
+}
+
+.info_content span{
+	font-size: 0.7em;
+}
+
+.info_content p{
+	margin-bottom: 10px;
+}
+
 .map_img{
-	width: 300px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
