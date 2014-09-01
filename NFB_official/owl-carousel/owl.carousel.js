@@ -1496,7 +1496,7 @@ if (typeof Object.create !== "function") {
         mouseDrag : true,
         touchDrag : true,
 
-        addClassActive : false,
+        addClassActive : true,
         transitionStyle : false,
 
         beforeUpdate : false,

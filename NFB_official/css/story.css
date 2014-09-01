@@ -7,27 +7,37 @@
 }
 
 .story_nav .active {
-	background-color: #5acdc1;
-	width: 90%;
+	color: #333;
+	background-color: #ebebeb;
+	/*width: 90%;*/
 }
 
 .story_nav a:hover{
-	width: 90%;
+	/*width: 90%;*/
 	color: #333;
 }
 
 .story_nav .active a:hover {
-	color: #fff;
-	background-color: #5acdc1;
+	color: #333;
+	background-color: #ebebeb;
 }
 
+.story_nav a{
+	color: #777;
+}
+
+
 .story_nav .active a{
-	color: #fff;
+	color: #777;
 }
 
 .story_title{
 	padding-bottom: 10px;
 	color: #777;
+}
+
+.story_title span{
+	font-size: 0.8em;
 }
 
 .story_img{
