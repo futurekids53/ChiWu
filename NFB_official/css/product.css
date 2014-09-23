@@ -1,0 +1,67 @@
+/*CONTENT*/
+.show_title{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #777;
+}
+
+.mid_title_box{
+	margin-top: 20px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #ebebeb;
+}
+
+.mid_title_box>h4{
+	padding-left: 10px;
+	font-size: 1.1em;
+	color: #777;
+}
+
+.subBox{
+	position: relative;
+	margin-top: 10px;
+}
+
+.subBox_img{
+	width: 100%;
+}
+
+.eshow_clip{
+	padding-bottom: 20px;
+}
+
+.eshow_content{
+	color: #777;
+}
+
+.fb-like{
+	padding-top: 20px;
+}
+
+/*CONTENT_CaptionBox*/
+.subBox_captionbox{
+	position: absolute;
+	margin-bottom: 0px;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.9;
+	transition: height 0.3s ease-in-out;
+}
+
+.subBox_text{
+	position: absolute;
+	padding-top: 2px;
+	padding-left: 5%;
+	font-size: 1.1em;
+	color: #777;/*white*/
+}
+
+
+.subBox:hover .subBox_captionbox{
+	height: 30%;
+	transition: height 0.3s ease-in-out;
+}
+
